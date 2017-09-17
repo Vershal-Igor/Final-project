@@ -1,0 +1,199 @@
+body {
+    overflow-x: hidden;
+}
+
+.the_lame_button {
+    border: 1px solid #5cb85c;
+    background-color: #5cb85c;
+    border-radius: 5px;
+    padding: 8px !important;
+    color: white !important;
+}
+
+.plavno1 {
+    -webkit-transition: 0.3s all ease-out;
+    -o-transition: 0.3s all ease-out;
+    -moz-transition: 0.3s all ease-out;
+}
+
+#footer1 span:hover {
+    -webkit-transform: scale(1.4);
+    -o-transform: scale(1.4);
+    -moz-transform: scale(1.4);
+}
+
+#footer1 a {
+    -webkit-transition: 0.3s all ease-in;
+    -o-transition: 0.3s all ease-in;
+    -moz-transition: 0.3s all ease-in;
+    color: #708090;
+}
+
+#footer1 a:hover {
+    color: #2f4f4f;
+}
+
+table {
+    text-align: center;
+    margin: auto;
+    font-family: arial;
+    font-size: 155%;
+    margin-bottom: 45px;
+}
+
+table th {
+    padding: 25px;
+    color: gray;
+}
+
+table td {
+    padding: 15px;
+}
+
+.jumbotron {
+    position: relative;
+}
+
+thead th {
+    text-align: center;
+    background-color: #f5f5f5;
+}
+
+#bannerid {
+    padding: 20px 50px 1px 50px;
+    margin-top: 20px;
+    background: linear-gradient(90deg, #c16a8a 100px, #a367ba 100px, #a367ba 200px, #2b798f 200px, #2b798f 300px, #76a7ac 300px, #76a7ac 400px, #93ae65 400px, #93ae65 500px, #dbb16f 500px) left top repeat-x;
+    background-color: #f2f2f2;
+    background-size: 600px 15px;
+    font-family: Breeze;
+}
+
+.banner img {
+    border: 1px solid #ccc;
+    border-radius: 3px; /*Подготовка к анимации*/
+    position: relative;
+}
+
+.banner img:hover {
+    -webkit-animation: prigskok 4s;
+    -moz-animation: prigskok 4s;
+    animation: prigskok 4s;
+}
+
+/*Анимация*/
+@-webkit-keyframes prigskok { /*Префикс -webkit- только для Chrome*/
+    0% {
+        top: 0;
+    }
+    10% {
+        top: 40px;
+    }
+    20% {
+        top: -30px;
+    }
+    30% {
+        top: 40px;
+    }
+    40% {
+        top: -20px;
+    }
+    50% {
+        top: 40px;
+    }
+    60% {
+        top: -10px;
+    }
+    70% {
+        top: 40px;
+    }
+    80% {
+        top: 0;
+    }
+    90% {
+        top: 40px;
+    }
+    95% {
+        top: 20px;
+    }
+    100% {
+        top: 0;
+    }
+}
+
+@keyframes prigskok { /*Без -webkit- анимация для остальных браузеров*/
+    0% {
+        top: 0;
+    }
+    10% {
+        top: 40px;
+    }
+    20% {
+        top: -30px;
+    }
+    30% {
+        top: 40px;
+    }
+    40% {
+        top: -20px;
+    }
+    50% {
+        top: 40px;
+    }
+    60% {
+        top: -10px;
+    }
+    70% {
+        top: 40px;
+    }
+    80% {
+        top: 0;
+    }
+    90% {
+        top: 40px;
+    }
+    95% {
+        top: 20px;
+    }
+    100% {
+        top: 0;
+    }
+}
+
+@-moz-keyframes prigskok { /* для старых браузеров FierFox префикс -moz-*/
+    0% {
+        top: 0;
+    }
+    10% {
+        top: 40px;
+    }
+    20% {
+        top: -30px;
+    }
+    30% {
+        top: 40px;
+    }
+    40% {
+        top: -20px;
+    }
+    50% {
+        top: 40px;
+    }
+    60% {
+        top: -10px;
+    }
+    70% {
+        top: 40px;
+    }
+    80% {
+        top: 0;
+    }
+    90% {
+        top: 40px;
+    }
+    95% {
+        top: 20px;
+    }
+    100% {
+        top: 0;
+    }
+}
